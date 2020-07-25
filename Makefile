@@ -1,7 +1,7 @@
-CFLAGS = -Wall -W -O2
+CFLAGS = -static -Wall -W -O2
 LDFLAGS = -s
 
-CC = gcc
+CC = arm-linux-gnueabi-gcc
 INSTALL = install
 INSTALL_DATA = $(INSTALL) -m 444
 INSTALL_PROGRAM = $(INSTALL) -m 555
