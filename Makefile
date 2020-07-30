@@ -1,5 +1,5 @@
 CFLAGS = -static -Wall -W -O2
-LDFLAGS = -s
+LDFLAGS = -static -s
 
 CC = arm-linux-gnueabi-gcc
 INSTALL = install
